@@ -1,5 +1,5 @@
 
-# Spotify API Data Retrieval and Analysis
+# Spotify API Data Retrieval and Analysis.
 
 This project aims to demonstrate how to use the Spotify API to retrieve data about trending music playlists, analyze the retrieved data, and save it to an Excel file.
 
