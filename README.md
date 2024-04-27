@@ -1,6 +1,3 @@
-Sure, here's a sample README file formatted for GitHub:
-
----
 
 # Spotify API Data Retrieval and Analysis
 
@@ -70,7 +67,3 @@ The script generates an Excel file containing the following information for each
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-Feel free to customize this README according to your project's specific details and requirements!
