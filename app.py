@@ -33,10 +33,11 @@ def get_tredning_playlist(playlist_id, access_token):
     sp = spotipy.Spotify(auth=access_token)
 
     playlist_tracks = sp.playlist_tracks(playlist_id, fields='items(track(id,name,artists,album(id,name)))')
-
+    print(playlist_id)
     music_tracks=[]
 
     for track_info in playlist_tracks['items']:
+        print(track_info)
         track = track_info['track']
         track_name = track['name']
         artists = ','.join([artist['name'] for artist in track['artists'] if artist.get('name') is not None])
