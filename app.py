@@ -1,8 +1,8 @@
 import requests
 import base64
 
-client_id = "92f7429968514a389eaa3072be714d5f"
-client_secret = "91d0b3d67a644c228699c24bab0a26c2"
+client_id = "your_id"
+client_secret = "your_secret"
 
 client_credentials =  f"{client_id}:{client_secret}"
 
