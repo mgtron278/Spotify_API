@@ -9,7 +9,7 @@ The project consists of two main parts:
 
 1. **Authorization**: Obtaining an access token from the Spotify API using client credentials flow.
 2. **Data Retrieval and Analysis**: Fetching data from a specified Spotify playlist, extracting relevant information about each track, including audio features, and saving it to an Excel file.
-
+3. 
 ## Requirements
 
 - Python 3.x
